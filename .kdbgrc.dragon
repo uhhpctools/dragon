@@ -1,0 +1,129 @@
+[Breakpoint 0]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=0
+Temporary=false
+
+[Breakpoint 1]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1611
+Temporary=false
+
+[Breakpoint 10]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1615
+Temporary=false
+
+[Breakpoint 11]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=0
+Temporary=false
+
+[Breakpoint 12]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1615
+Temporary=false
+
+[Breakpoint 13]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1619
+Temporary=false
+
+[Breakpoint 14]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1619
+Temporary=false
+
+[Breakpoint 15]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1619
+Temporary=false
+
+[Breakpoint 16]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=56
+Temporary=false
+
+[Breakpoint 17]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1622
+Temporary=false
+
+[Breakpoint 2]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1619
+Temporary=false
+
+[Breakpoint 3]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1611
+Temporary=false
+
+[Breakpoint 4]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1611
+Temporary=false
+
+[Breakpoint 5]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1611
+Temporary=false
+
+[Breakpoint 6]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1611
+Temporary=false
+
+[Breakpoint 7]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1611
+Temporary=false
+
+[Breakpoint 8]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1611
+Temporary=false
+
+[Breakpoint 9]
+Enabled=true
+File=Main_Dragon/graphwindow.cxx
+Line=1611
+Temporary=false
+
+[General]
+DebuggerCmdStr=
+FileVersion=1
+ProgramArgs=
+TTYLevel=7
+WorkingDirectory=
+
+[Memory]
+ColumnWidths=103,200
+Expression1=0x80d8908
+Expression2=0x80ed068
+Expression3=0x80ecb68
+Expression4=UICallgraphRoot
+Format1=19
+Format2=19
+Format3=19
+Format4=19
+NumExprs=4
+
+[Watches]
+Expr0=fromNode

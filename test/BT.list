@@ -1,0 +1,651 @@
+Parallelization Log for Subprogram add_
+
+    1: Not Parallel
+         Parallelizing innermore loop was deemed more profitable.
+
+    1: PARALLEL (Auto) __mpdo_add_1
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+
+Parallelization Log for Subprogram adi_
+
+
+Parallelization Log for Subprogram MAIN__
+
+    1: Not Parallel
+         Call adi_ on line 1.
+         Has IO statement on line 1.
+
+
+Parallelization Log for Subprogram error_norm_
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+    1: Not Parallel
+         Array dependence from RMS on line 1 to RMS on line 1.
+
+
+Parallelization Log for Subprogram rhs_norm_
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Array dependence from RMS on line 1 to RMS on line 1.
+         Cannot privatize RMS. Requires partial array section.
+    1: Not Parallel
+         Array dependence from RMS on line 1 to RMS on line 1.
+         Cannot privatize RMS. Requires partial array section.
+
+    1: PARALLEL (Auto Synchronized) __mpdo_rhs_norm_1
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+    1: Not Parallel
+         Array dependence from RMS on line 1 to RMS on line 1.
+
+
+Parallelization Log for Subprogram exact_rhs_
+
+    1: PARALLEL (Auto) __mpdo_exact_rhs_1
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: PARALLEL (Auto) __mpdo_exact_rhs_2
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: PARALLEL (Auto) __mpdo_exact_rhs_3
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: PARALLEL (Auto) __mpdo_exact_rhs_4
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: PARALLEL (Auto) __mpdo_exact_rhs_5
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+
+Parallelization Log for Subprogram exact_solution_
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+
+Parallelization Log for Subprogram initialize_
+
+    1: PARALLEL (Auto) __mpdo_initialize_1
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Call exact_solution_ on line 1.
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+
+Parallelization Log for Subprogram lhsinit_
+
+    1: PARALLEL (Auto) __mpdo_lhsinit_1
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: Not Parallel
+         Parallelizing innermore loop was deemed more profitable.
+
+    1: PARALLEL (Auto) __mpdo_lhsinit_2
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+
+Parallelization Log for Subprogram lhsx_
+
+    1: Not Parallel
+         Last iteration may not write value of scalar TMP1 on line 1.
+         Last iteration may not write value of scalar TMP1 on line 1.
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP3 on line 1.
+    1: Not Parallel
+         Last iteration may not write value of scalar TMP1 on line 1.
+         Last iteration may not write value of scalar TMP1 on line 1.
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP3 on line 1.
+
+    1: PARALLEL (Auto) __mpdo_lhsx_1
+
+    1: PARALLEL (Auto) __mpdo_lhsx_2
+
+
+Parallelization Log for Subprogram lhsy_
+
+    1: Not Parallel
+         Last iteration may not write value of scalar TMP1 on line 1.
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP3 on line 1.
+    1: Not Parallel
+         Last iteration may not write value of scalar TMP1 on line 1.
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP3 on line 1.
+
+    1: PARALLEL (Auto) __mpdo_lhsy_1
+
+    1: Not Parallel
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP1 on line 1.
+    1: Not Parallel
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP1 on line 1.
+
+    1: PARALLEL (Auto) __mpdo_lhsy_2
+
+
+Parallelization Log for Subprogram lhsz_
+
+    1: Not Parallel
+         Last iteration may not write value of scalar TMP1 on line 1.
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP3 on line 1.
+    1: Not Parallel
+         Last iteration may not write value of scalar TMP1 on line 1.
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP3 on line 1.
+
+    1: PARALLEL (Auto) __mpdo_lhsz_1
+
+    1: Not Parallel
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP1 on line 1.
+    1: Not Parallel
+         Last iteration may not write value of scalar TMP2 on line 1.
+         Last iteration may not write value of scalar TMP1 on line 1.
+
+    1: PARALLEL (Auto) __mpdo_lhsz_2
+
+
+Parallelization Log for Subprogram compute_rhs_
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_1
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_2
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_3
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_4
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_5
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_6
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_7
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_8
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_9
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_10
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_11
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_12
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_13
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_14
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_15
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_16
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_17
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_18
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_19
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_20
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+    1: PARALLEL (Auto) __mpdo_compute_rhs_21
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+
+Parallelization Log for Subprogram set_constants_
+
+
+Parallelization Log for Subprogram verify_
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+    1: Not Parallel
+         Has IO statement on line 1.
+         Has IO statement on line 1.
+         Has IO statement on line 1.
+
+    1: Not Parallel
+         Has IO statement on line 1.
+         Has IO statement on line 1.
+         Has IO statement on line 1.
+
+
+Parallelization Log for Subprogram x_solve_
+
+
+Parallelization Log for Subprogram x_backsubstitute_
+
+    1: PARALLEL (Auto) __mpdo_x_backsubstitute_1
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+
+Parallelization Log for Subprogram x_solve_cell_
+
+    1: Not Parallel
+         Call binvcrhs_ on line 1.
+    1: Not Parallel
+         Call binvcrhs_ on line 1.
+
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvcrhs_ on line 1.
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvcrhs_ on line 1.
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvcrhs_ on line 1.
+
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvrhs_ on line 1.
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvrhs_ on line 1.
+
+
+Parallelization Log for Subprogram matvec_sub_
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+
+Parallelization Log for Subprogram matmul_sub_
+
+    1: Not Parallel
+         Loop body does not contain enough work.
+
+
+Parallelization Log for Subprogram binvcrhs_
+
+
+Parallelization Log for Subprogram binvrhs_
+
+
+Parallelization Log for Subprogram y_solve_
+
+
+Parallelization Log for Subprogram y_backsubstitute_
+
+    1: PARALLEL (Auto) __mpdo_y_backsubstitute_1
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+
+Parallelization Log for Subprogram y_solve_cell_
+
+    1: Not Parallel
+         Call binvcrhs_ on line 1.
+    1: Not Parallel
+         Call binvcrhs_ on line 1.
+
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvcrhs_ on line 1.
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvcrhs_ on line 1.
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvcrhs_ on line 1.
+
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvrhs_ on line 1.
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvrhs_ on line 1.
+
+
+Parallelization Log for Subprogram z_solve_
+
+
+Parallelization Log for Subprogram z_backsubstitute_
+
+    1: Not Parallel
+         Array dependence from RHS on line 1 to RHS on line 1.
+
+    1: PARALLEL (Auto) __mpdo_z_backsubstitute_1
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+    1: Not Parallel
+         Loop is contained within a parallel construct.
+
+
+Parallelization Log for Subprogram z_solve_cell_
+
+    1: Not Parallel
+         Call binvcrhs_ on line 1.
+    1: Not Parallel
+         Call binvcrhs_ on line 1.
+
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvcrhs_ on line 1.
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvcrhs_ on line 1.
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvcrhs_ on line 1.
+
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvrhs_ on line 1.
+    1: Not Parallel
+         Call matvec_sub_ on line 1.
+         Call matmul_sub_ on line 1.
+         Call binvrhs_ on line 1.
+
+

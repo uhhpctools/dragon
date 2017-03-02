@@ -1,0 +1,14 @@
+graph: { 
+title: "toto"
+node: { title:"one"}
+node: { title:"two"}
+node: { title:"three"}
+node: { title:"four"}
+node: { title:"five"}
+node: { title:"six"}
+edge: { sourcename: "one" targetname: "two" }
+edge: { sourcename: "two" targetname: "three" }
+edge: { sourcename: "three" targetname: "four" }
+edge: { sourcename: "four" targetname: "five" }
+edge: { sourcename: "five" targetname: "six" }
+}
